@@ -31,10 +31,8 @@ def _get_transforms(use_augmentation: bool, img_size: int):
                 HorizontalFlip(p=0.5),
                 VerticalFlip(p=0.5),
                 Normalize(
-                    # mean=[0.485, 0.456, 0.406],
-                    # std=[0.229, 0.224, 0.225],
-                    mean=[0.4914, 0.4822, 0.4465],
-                    std=[0.2470, 0.2435, 0.2616]
+                    mean=[0.485, 0.456, 0.406],
+                    std=[0.229, 0.224, 0.225],
                 ),
                 ToTensorV2(),
             ]
@@ -43,7 +41,10 @@ def _get_transforms(use_augmentation: bool, img_size: int):
     return Compose(
         [
             Resize(img_size, img_size),
-            Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+            Normalize(
+                mean=[0.485, 0.456, 0.406],
+                std=[0.229, 0.224, 0.225]
+            ),
             ToTensorV2(),
         ]
     )
