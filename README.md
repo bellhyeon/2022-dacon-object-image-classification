@@ -3,7 +3,7 @@
 총 10개의 class 로 이루어진 데이터를 분류
 <br>[Competition Link](https://dacon.io/competitions/official/235874/overview/description)
 * 주최/주관: Dacon<br>
-**Private 6th (6/235, 3%)**
+**Private 6th (6/235, 3%)**<br>
 **최종 코드 검증 2nd (2/235, 1%)**
 ***
 
