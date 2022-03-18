@@ -4,6 +4,7 @@
 <br>[Competition Link](https://dacon.io/competitions/official/235874/overview/description)
 * 주최/주관: Dacon<br>
 **Private 6th (6/235, 3%)**
+**최종 코드 검증 2nd (2/235, 1%)**
 ***
 
 ## Structure
